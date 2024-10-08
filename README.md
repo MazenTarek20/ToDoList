@@ -5,7 +5,7 @@ ToDoList is a simple Rest API built with Spring boot Java & PostgreSQL to practi
 # Requests used in testing
 
 
-# Creating a new task {
+# Creating a new task 
 localhost:8080/tasks/CreateTask 
 
 # Test data:
@@ -22,10 +22,10 @@ User-created successfully
 
 # Actual result:
 User-created successfully
-# }
+
 ________________________________________________________________________________
 
-# Presenting all tasks {
+# Presenting all tasks 
 localhost:8080/tasks/GetAllTasks
 
 
@@ -34,9 +34,9 @@ Tasks presented successfully
 
 # Actual result:
 Tasks presented successfully
-# }
+
 ________________________________________________________________________________
-# Presenting a task by id {
+# Presenting a task by id 
 localhost:8080/tasks/{id}
 
 # Test data:
@@ -47,9 +47,9 @@ Task presented successfully
 
 # Actual result:
 Task presented successfully
-# }
+
 ____________________________________________________________________________________
-# Updating an existing task {
+# Updating an existing task 
 localhost:8080/tasks/UpdateTask/{id}
 
 # Test data:
@@ -67,10 +67,10 @@ Task updated successfully
 
 # Actual result:
 Task updated successfully
-# }
+
 ________________________________________________________________________________
 
-# Deleting an existing task by id {
+# Deleting an existing task by id 
 localhost:8080/tasks/DeleteTask/{id}
 
 # Test data:
@@ -81,9 +81,9 @@ Task deleted successfully
 
 # Actual result:
 Task deleted successfully
-# }
+
 __________________________________________________________________________________
-# Deleting an existing task by id {
+# Deleting an existing task by id 
 localhost:8080/tasks/DeleteAllTasks
 
 # Expected result:
@@ -91,4 +91,4 @@ All tasks deleted successfully
 
 # Actual result:
 All tasks deleted successfully
-# }
+
