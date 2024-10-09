@@ -9,8 +9,11 @@ Delete Task: Remove a task by its ID.
 
 # Technologies Used
 Backend: Spring Boot (Java)
+
 Database: PostgreSQL
+
 Testing: Postman (API testing)
+
 Tools: Maven, Spring Data JPA
 
 # Installation
